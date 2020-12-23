@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".institutesActivity"
+    android:background="#1E11F0"
+    android:orientation="vertical"
+    >
+ <Button
+     android:id="@+id/government_id"
+     android:onClick="governmentbtn"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:padding="20dp"
+     android:layout_marginTop="20dp"
+     android:layout_margin="20dp"
+     android:textSize="28sp"
+     android:text="সরকারি প্রতিষ্ঠান"
+     android:textAllCaps="false"
+     android:background="@drawable/button1"
+     />
+    <Button
+        android:id="@+id/nongovernment_id"
+        android:onClick="nongovernmentbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:textSize="28sp"
+        android:text="বেসরকারি প্রতিষ্ঠান"
+        android:textAllCaps="false"
+        android:background="@drawable/button1"
+
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>

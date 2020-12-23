@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#120392"
+    android:orientation="vertical"
+    tools:context=".restaurantsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="340dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/thefenian" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Fenian"
+                android:textAlignment="center"
+                android:textColor="#FAE0DCEB"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="( 01772718106 )"
+                android:textAlignment="center"
+                android:textColor="#E6D986"
+                android:textIsSelectable="true"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/thefeniancallid"
+                android:layout_width="125dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/button2"
+                android:drawableLeft="@drawable/ic_phone_in_talk_black_24dp"
+                android:padding="10dp"
+                android:text="কল করুন"
+                android:textColor="#F4F8FA"
+                android:textSize="18sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="340dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/stateoffoods" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="State Of Foods"
+                android:textAlignment="center"
+                android:textColor="#FAE0DCEB"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="( 01825594949 )"
+                android:textAlignment="center"
+                android:textColor="#E6D986"
+                android:textIsSelectable="true"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/stateoffoodscallid"
+                android:layout_width="125dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/button2"
+                android:drawableLeft="@drawable/ic_phone_in_talk_black_24dp"
+                android:padding="10dp"
+                android:text="কল করুন"
+                android:textColor="#F4F8FA"
+                android:textSize="18sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="340dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tastenbest" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Taste N Best"
+                android:textAlignment="center"
+                android:textColor="#FAE0DCEB"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="( 01740701701 )"
+                android:textAlignment="center"
+                android:textColor="#E6D986"
+                android:textIsSelectable="true"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/tastenbestcallid"
+                android:layout_width="125dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/button2"
+                android:drawableLeft="@drawable/ic_phone_in_talk_black_24dp"
+                android:padding="10dp"
+                android:text="কল করুন"
+                android:textColor="#F4F8FA"
+                android:textSize="18sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="340dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/redix" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Redix"
+                android:textAlignment="center"
+                android:textColor="#FAE0DCEB"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="( 01748235245 )"
+                android:textAlignment="center"
+                android:textColor="#E6D986"
+                android:textIsSelectable="true"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/redixcallid"
+                android:layout_width="125dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/button2"
+                android:drawableLeft="@drawable/ic_phone_in_talk_black_24dp"
+                android:padding="10dp"
+                android:text="কল করুন"
+                android:textColor="#F4F8FA"
+                android:textSize="18sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="340dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bestinn" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BestInn"
+                android:textAlignment="center"
+                android:textColor="#FAE0DCEB"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="( 01847291111 )"
+                android:textAlignment="center"
+                android:textColor="#E6D986"
+                android:textIsSelectable="true"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/bestinncallid"
+                android:layout_width="125dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/button2"
+                android:drawableLeft="@drawable/ic_phone_in_talk_black_24dp"
+                android:padding="10dp"
+                android:text="কল করুন"
+                android:textColor="#F4F8FA"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(Source:Google)"
+                android:textAlignment="center"
+                android:textColor="#E69595"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

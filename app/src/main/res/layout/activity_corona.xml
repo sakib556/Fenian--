@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".corona"
+    android:orientation="vertical"
+    android:background="#7512FF"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IEDCR হটলাইন নাম্বার"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFAB06"
+        android:textSize="32sp"
+        android:textStyle="bold"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="( 9898691 )"
+        android:textStyle="bold"
+        android:textColor="#FDFD04"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textIsSelectable="true"
+
+        />
+
+    <Button
+        android:id="@+id/coronaviruscall_id"
+        android:background="@drawable/button2"
+        android:text="কল করুন"
+        android:textSize="18sp"
+        android:textColor="#F4F8FA"
+        android:layout_margin="5dp"
+        android:drawableStart="@drawable/ic_phone_in_talk_black_24dp"
+        android:layout_width="125dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:textAlignment="gravity"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DGHS হটলাইন নাম্বার"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFAB06"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="( 16263 )"
+        android:textStyle="bold"
+        android:textColor="#FDFD04"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textIsSelectable="true"
+        />
+    <Button
+        android:id="@+id/coronaviruscall2_id"
+        android:background="@drawable/button2"
+        android:text="কল করুন"
+        android:textSize="18sp"
+        android:textColor="#F4F8FA"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_phone_in_talk_black_24dp"
+        android:layout_width="125dp"
+        android:layout_height="45dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a2i হটলাইন নাম্বার"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFAB06"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="( 333 )"
+        android:textStyle="bold"
+        android:textColor="#FDFD04"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textIsSelectable="true"
+        />
+    <Button
+        android:id="@+id/coronaviruscall3_id"
+        android:background="@drawable/button2"
+        android:text="কল করুন"
+        android:textSize="18sp"
+        android:textColor="#F4F8FA"
+        android:layout_margin="5dp"
+        android:drawableStart="@drawable/ic_phone_in_talk_black_24dp"
+        android:layout_width="125dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/coronahotline"
+        android:textAllCaps="false"
+        android:textColor="#D8D4CB"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textIsSelectable="true"
+        android:layout_marginLeft="7dp"
+        />
+        <TextView
+            android:id="@+id/coronaweb_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coronaweb"
+            android:textAllCaps="false"
+            android:textColor="#42E92F"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="7dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#E69595"
+            android:text="(Source:Google)"
+            android:textAlignment="center"
+            android:layout_margin="2dp"
+            />
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

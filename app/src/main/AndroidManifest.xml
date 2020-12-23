@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ourfeni.projectoffeni">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:extractNativeLibs="true"
+        android:allowBackup="true"
+        android:icon="@drawable/finalicon2"
+        android:label="ফেনীয়ান-Fenian"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.ourfeni.projectoffeni.corona">
+        </activity>
+        <activity android:name="com.ourfeni.projectoffeni.blooddonationgroupe" />
+        <activity android:name="com.ourfeni.projectoffeni.teastall" />
+        <activity android:name="com.ourfeni.projectoffeni.governmentinstituteActivity" />
+        <activity android:name="com.ourfeni.projectoffeni.nongovernmentinstitutesActivity" />
+        <activity android:name="com.ourfeni.projectoffeni.aboutmeActivity" />
+        <activity android:name="com.ourfeni.projectoffeni.aboutfeniActivity" />
+        <activity android:name="com.ourfeni.projectoffeni.restaurantsActivity" />
+        <activity android:name="com.ourfeni.projectoffeni.feniemergencyActivity" />
+        <activity android:name="com.ourfeni.projectoffeni.institutesActivity" />
+        <activity android:name="com.ourfeni.projectoffeni.touristspotActivity" />
+        <activity android:name="com.ourfeni.projectoffeni.photosActivity" />
+        <activity android:name="com.ourfeni.projectoffeni.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

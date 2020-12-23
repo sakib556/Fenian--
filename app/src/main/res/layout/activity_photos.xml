@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".photosActivity"
+    android:background="#120392"
+    android:orientation="vertical"
+    >
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+<androidx.cardview.widget.CardView
+   android:layout_marginTop="5dp"
+    android:layout_width="340dp"
+    android:layout_height="220dp"
+    android:layout_gravity="center"
+    >
+   <ImageView
+      android:src="@drawable/mohipalflyover"
+      android:layout_gravity="center"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="fitXY"
+       />
+  </androidx.cardview.widget.CardView>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="মহিপাল ফ্লাইওভার"
+       android:textColor="#FDFBFB"
+       android:textSize="20sp"
+       android:textAlignment="center"/>
+
+   <androidx.cardview.widget.CardView
+       android:layout_marginTop="5dp"
+       android:layout_width="340dp"
+       android:layout_height="220dp"
+       android:layout_gravity="center"
+
+       >
+  <ImageView
+      android:src="@drawable/sskroad2"
+      android:layout_gravity="center"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="fitXY"
+      />
+  </androidx.cardview.widget.CardView>
+   <TextView
+       android:text="এস.এস.কে রোড"
+       android:textColor="#FDFBFB"
+       android:layout_margin="2dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="20sp"
+       android:textAlignment="center"/>
+
+   <androidx.cardview.widget.CardView
+       android:layout_marginTop="5dp"
+       android:layout_width="340dp"
+       android:layout_height="220dp"
+       android:layout_gravity="center"
+       >
+   <ImageView
+      android:src="@drawable/doyelchottor"
+      android:layout_gravity="center"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+       android:scaleType="fitXY"
+      />
+  </androidx.cardview.widget.CardView>
+   <TextView
+       android:text="দোয়েল চত্বর"
+       android:textColor="#FDFBFB"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:textSize="20sp"
+       android:textAlignment="center"/>
+   <androidx.cardview.widget.CardView
+       android:layout_marginTop="5dp"
+       android:layout_width="340dp"
+       android:layout_height="220dp"
+       android:layout_gravity="center"
+       >
+  <ImageView
+      android:src="@drawable/shaheedminar"
+      android:layout_gravity="center"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="fitXY"       />
+  </androidx.cardview.widget.CardView>
+   <TextView
+       android:text="ফেনী শহীদ মিনার"
+       android:textColor="#FDFBFB"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="20sp"
+       android:textAlignment="center"/>
+
+   <androidx.cardview.widget.CardView
+       android:layout_marginTop="5dp"
+       android:layout_width="340dp"
+       android:layout_height="220dp"
+       android:layout_gravity="center"
+       >
+
+   <ImageView
+       android:src="@drawable/mizanroad"
+       android:layout_gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:scaleType="fitXY"
+
+       />
+  </androidx.cardview.widget.CardView>
+   <TextView
+       android:text="মিজান রোড"
+       android:textColor="#FDFBFB"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="20sp"
+       android:textAlignment="center"/>
+   <androidx.cardview.widget.CardView
+       android:layout_marginTop="5dp"
+       android:layout_width="340dp"
+       android:layout_height="220dp"
+       android:layout_gravity="center"
+       >
+
+   <ImageView
+       android:src="@drawable/fenistadium2"
+       android:layout_gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:scaleType="fitXY"
+
+       />
+  </androidx.cardview.widget.CardView>
+   <TextView
+       android:text="ফেনী স্টেডিয়াম"
+       android:textColor="#FDFBFB"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="20sp"
+       android:textAlignment="center"/>
+   <androidx.cardview.widget.CardView
+       android:layout_marginTop="5dp"
+       android:layout_width="340dp"
+       android:layout_height="220dp"
+       android:layout_gravity="center"
+       >
+   <ImageView
+       android:src="@drawable/hospitalmor"
+       android:layout_gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:scaleType="fitXY"       />
+  </androidx.cardview.widget.CardView>
+   <TextView
+       android:text="হাসপাতাল মোড়"
+       android:textColor="#FDFBFB"
+       android:layout_margin="2dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:textSize="20sp"
+       android:textAlignment="center"/>
+
+
+   <androidx.cardview.widget.CardView
+       android:layout_marginTop="5dp"
+       android:layout_width="340dp"
+       android:layout_height="220dp"
+       android:layout_gravity="center"
+       >
+    <ImageView
+       android:src="@drawable/lalpol"
+       android:layout_gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+        android:scaleType="fitXY"       />
+   </androidx.cardview.widget.CardView>
+   <TextView
+       android:text="লালপোল"
+       android:textColor="#FDFBFB"
+       android:layout_margin="2dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:textSize="20sp"
+       android:textAlignment="center"/>
+      <androidx.cardview.widget.CardView
+          android:layout_marginTop="5dp"
+          android:layout_width="340dp"
+          android:layout_height="220dp"
+          android:layout_gravity="center"
+          >
+          <ImageView
+              android:src="@drawable/fenirailway"
+              android:layout_gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:scaleType="fitXY"       />
+      </androidx.cardview.widget.CardView>
+      <TextView
+          android:text="ফেনী রেলওয়ে স্টেশন"
+          android:textColor="#FDFBFB"
+          android:layout_margin="2dp"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:textSize="20sp"
+          android:textAlignment="center"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="14sp"
+          android:textColor="#E69595"
+          android:text="(Source:Google)"
+          android:textAlignment="center"
+          android:layout_margin="2dp"
+          />
+  </LinearLayout>
+ </ScrollView>
+
+
+</LinearLayout>
